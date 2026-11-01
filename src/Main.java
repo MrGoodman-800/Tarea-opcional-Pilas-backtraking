@@ -8,7 +8,7 @@ public class Main {
         Coordenada inicio = laberinto.buscarInicio();
 
         if (inicio == null) {
-            System.out.println("No se encontró el punto de inicio (S).");
+            System.out.println("No se encontro el inicio");
             return;
         }
 
@@ -51,7 +51,7 @@ public class Main {
         }
 
         if (encontrado) {
-            System.out.println("saolucion encontrada\n");
+            System.out.println("soolucion encontrada\n");
             laberinto.marcarCamino(pila);
         } else {
             System.out.println("no hay salida.");

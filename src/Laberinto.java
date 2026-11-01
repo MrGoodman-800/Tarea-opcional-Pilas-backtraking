@@ -26,7 +26,7 @@ public class Laberinto {
                     }
                 }
             } catch (IOException e) {
-                System.out.println("Error al leer el archivo del laberinto: " + e.getMessage());
+                System.out.println("Error: " + e.getMessage());
             }
         }
 
